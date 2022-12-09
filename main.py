@@ -1,5 +1,5 @@
 import os
-from solutions import eleven,twelve
+from solutions import eleven,twelve,thirteen_and_forteen
 if __name__ == '__main__':
     script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
     #one.execute(script_dir)
@@ -13,4 +13,5 @@ if __name__ == '__main__':
     #nine.execute(script_dir)
     #ten.execute(script_dir)
     #eleven.execute(script_dir)
-    twelve.execute(script_dir)
+    #twelve.execute(script_dir)
+    thirteen_and_forteen.execute(script_dir)
